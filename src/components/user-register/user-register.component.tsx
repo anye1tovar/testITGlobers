@@ -76,6 +76,7 @@ export default class userRegisterComponent extends React.Component<UserRegisterP
                                     className="form-control"
                                     type="number"
                                     min="18"
+                                    max="100"
                                     onChange={this._onChangeTextInput} required />
                             </label>
                             <br />
